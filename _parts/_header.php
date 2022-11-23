@@ -46,6 +46,7 @@ $arqui = explode(DIRECTORY_SEPARATOR,$_SERVER['PHP_SELF']);
           <h1 class="mb-1">Programção WEB</h1>
           <h2 class="mb-1">Tecnico em Infomática</h2>
           <h4>Ifro - <i>Campus</i> Ji-Paraná</h4>
+          <h6>Rahyan Ramos de Oliveira</h6>
         </div>
       </div>
     </div>

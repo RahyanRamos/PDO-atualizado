@@ -1,11 +1,11 @@
 
-DROP SCHEMA IF EXISTS `AulaTec` ;
+DROP SCHEMA IF EXISTS `pw` ;
 
 -- -----------------------------------------------------
--- Schema AulaTec
+-- Schema pw
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `AulaTec` DEFAULT CHARACTER SET utf8 ;
-USE `AulaTec` ;
+CREATE SCHEMA IF NOT EXISTS `pw` DEFAULT CHARACTER SET utf8 ;
+USE `pw` ;
 
 -- -----------------------------------------------------
 -- Table `Cliente`
@@ -25,7 +25,7 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `AulaTec`.`servico`
+-- Table `pw`.`servico`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Servico` (
   `idServico` INT NOT NULL AUTO_INCREMENT,
@@ -38,7 +38,7 @@ DEFAULT CHARACTER SET = utf8mb3;
 
 
 -- -----------------------------------------------------
--- Table `AulaTec`.`ordemservico`
+-- Table `pw`.`ordemservico`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `OrdemServico` (
   `idOS` INT NOT NULL AUTO_INCREMENT,
